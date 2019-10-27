@@ -1,6 +1,6 @@
 .background{
     background-image: url(../images/abzu.jpg);
-    height: 100%;
+    min-height: 100%;
     min-width: 100%;
 }
 
@@ -8,9 +8,12 @@ p{
     font-weight: bold;
     text-align:center;
     margin-bottom: 5px;
-    
+   
 }
-
+.result{
+    margin-top: 30px;
+    font-size: 24px;
+}
 .jumbotron{
     font-family: 'Arvo', serif;
     background-color: rgba(255,255,255,0.5);
@@ -22,7 +25,7 @@ p{
 #timer{
     font-family: 'Patua One', bold;
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
