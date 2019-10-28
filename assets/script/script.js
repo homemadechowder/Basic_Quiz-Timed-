@@ -18,11 +18,13 @@ $( document ).ready(function() {
     //Ocean Sunfish: B    
 
     console.log($("#timer").text());
+    var answer = $("[type = 'radio']");
+    var userAnswer = "";
+   
     var unchecked = 0;
     var correct = 0;
     var wrong= 0;
-    var answer = $("[type = 'radio']");
-    var userAnswer = "";
+    
     var number = 60;
     var intervalId;
    
@@ -96,7 +98,3 @@ $( document ).ready(function() {
 
 
 });
-
-
-
-
